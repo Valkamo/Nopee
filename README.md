@@ -18,6 +18,12 @@ Combat:
 -> Ammo
 -> Basic Animations
 
+- Kick
+-> F to kick
+-> if speed < 600 -> Stagger enemy
+-> if speed > 600 -> Kill enemy, little ragdoll
+-> if speed > 1000 -> Kill enemy, big ragdoll
+-need tracking for kick direction also animation
 
 AI Enemy:
 - Basic AI behavior
