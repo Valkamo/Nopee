@@ -20,10 +20,12 @@ Combat:
 
 - Kick
 -> F to kick
--> if speed < 600 -> Stagger enemy
--> if speed > 600 -> Kill enemy, little ragdoll
+-> dashes to enemy
+-> if speed < 1000 -> Kill enemy, little ragdoll
 -> if speed > 1000 -> Kill enemy, big ragdoll
--need tracking for kick direction also animation
+-> after kick auto dashes upwards
+-> Animation missing
+-> post process effect "impactframe" done
 
 AI Enemy:
 - Basic AI behavior
